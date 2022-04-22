@@ -12,7 +12,6 @@ public class Main {
 
         Set<String> unique = new HashSet<>(Arrays.asList(words));
         System.out.println(unique);
-
         Phonebook contact = new Phonebook();
 
         contact.add("Stefan", "+79145003511");
